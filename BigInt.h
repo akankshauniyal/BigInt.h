@@ -30,6 +30,7 @@ struct BigInteger add(struct BigInteger num1, struct BigInteger num2);
 struct BigInteger sub(struct BigInteger num1, struct BigInteger num2);
 struct BigInteger mul(struct BigInteger num1, struct BigInteger num2);
 struct BigInteger div1(struct BigInteger dividend, struct BigInteger divisor);
+struct BigInteger mod(struct BigInteger num1, struct BigInteger num2);
 void freeL(struct BigInteger* num);
 
 
